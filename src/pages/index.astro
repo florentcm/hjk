@@ -49,16 +49,14 @@ import Layout from '../components/Layout.astro';
     width: 300vw;
   }
   .fog__img--first {
-    background: url(https://drive.google.com/uc?export=view&id=1GL-Uetao0sccNtJqIjlrRdTSYDGOZXYy)
-      repeat-x;
+    background: url(/fog-1.png) repeat-x;
     background-size: contain;
     background-position: center;
     -webkit-animation: marquee 60s linear infinite;
     animation: marquee 60s linear infinite;
   }
   .fog__img--second {
-    background: url(https://drive.google.com/uc?export=view&id=1_49CUCR6q8zTKFQKU9L_8oD834IQEWju)
-      repeat-x;
+    background: url(/fog-2.png) repeat-x;
     background-size: contain;
     background-position: center;
     -webkit-animation: marquee 40s linear infinite;
@@ -130,7 +128,7 @@ import Layout from '../components/Layout.astro';
   .bg-noise:after {
     -webkit-animation: noise2 1s steps(2) infinite;
     animation: noise2 1s steps(2) infinite;
-    background-image: url('https://i.postimg.cc/yNJyHjnF/background-noise.png');
+    background-image: url(/background-noise.png);
     background-position: 50%;
     content: '';
     height: calc(100vh + 20rem);
